@@ -3,7 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/home/ubuntu/.ssh/kumar.pem"
+  default = "./ansible/kumar.pem"
 }
 
 variable "us-east-zones" {
